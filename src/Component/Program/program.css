@@ -162,6 +162,8 @@
 @media (max-width:400px) {
   .programs{
     gap: 1px;
+    display: flex;
+    gap:30px;
   }
 
    .program img {
@@ -194,7 +196,7 @@
   margin-bottom: 25px;
 }
 .caption p {
-  font-size: 17px;
+  font-size: 12px;
   margin-bottom: 50px;
 }
 .program:hover .caption{
