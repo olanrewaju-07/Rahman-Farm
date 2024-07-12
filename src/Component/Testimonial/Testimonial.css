@@ -112,3 +112,27 @@
     font-size: 11px;
   }
 }
+@media (max-width: 300px) {
+    .Testimonial{
+    padding: 0 45px;
+  }
+  .slide{
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05 );
+    color: #676767;
+    line-height: 1.4;
+    width: 50vw;
+    height: 45vh;
+  }
+
+  .next-btn , .back-btn{
+    padding: 10px;
+    width: 35px;
+  }
+  .slide p{
+  font-size: 10px;
+  word-wrap: break-word;
+  }
+  
+}

@@ -17,27 +17,44 @@
   margin-bottom: 15px;
   margin-top: 30px;
   margin-right: 100px;
-  padding: 15px 45px;
+  padding: 15px 35px;
+}
+.click-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 .btn-dark {
   background: #212EA0;
   color: #fff;
-  margin-top: 15px;
-  margin-right: 60px;
   cursor: pointer;
   padding: 14px 25px;
   border: none;
   border-radius: 25px;
 }
-@media (max-width:400px) {
+@media (max-width:380px) {
+  .click-btn{
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
   .btn-dark {
-    padding: 10px 15px;
+    text-align: center;
+    padding: 8px 15px;
   }
   .checkout form input , .checkout form textarea{
-    width: 90%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+
   }
   .checkout{
-    padding: 10px 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
+
   
 }

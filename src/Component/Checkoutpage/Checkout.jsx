@@ -52,7 +52,7 @@ const CenterdForm = ({ products }) => {
           required
         />
         <div className="click-btn">
-          <button onClick={() => navigate("/")} className="btn dark-btn">
+          <button onClick={() => navigate("/")} className="btn-dark ">
             Back to Booking
           </button>
           <button type="submit" className="btn-dark">
