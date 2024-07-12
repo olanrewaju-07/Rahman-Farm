@@ -163,5 +163,46 @@
   .programs{
     gap: 1px;
   }
+
+   .program img {
+  width: 75vw;
+  height: 70vh;
+}
+.caption{
+  border-radius: 20px;
+  position: absolute;
+  top: 10;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 15, 152, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 75vw;
+  height: 70vh;
+  padding-top: 10%;
+}
+.caption img {
+  width: 10vw;
+  height: 11vh;
+  margin-bottom: 25px;
+}
+.caption p {
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+.program:hover .caption{
+  opacity: 1;
+  padding-top: o;
+}
+.program {
+  margin-bottom: 100px;
+}
   
 }
