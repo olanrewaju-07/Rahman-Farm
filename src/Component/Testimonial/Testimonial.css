@@ -91,7 +91,10 @@
     font-size: 15px;
   }
 }
-@media (max-width:440px) {
+@media (max-width:400px) {
+  .Testimonial{
+    padding: 0 65px;
+  }
   .slide{
     padding: 5px;
     border-radius: 20px;

@@ -29,3 +29,15 @@
   border: none;
   border-radius: 25px;
 }
+@media (max-width:400px) {
+  .btn-dark {
+    padding: 10px 15px;
+  }
+  .checkout form input , .checkout form textarea{
+    width: 90%;
+  }
+  .checkout{
+    padding: 10px 2px;
+  }
+  
+}

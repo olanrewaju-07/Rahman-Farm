@@ -29,7 +29,7 @@ const App = () => {
       <div className="container">
         <Title subTitle="Our PROGRAM" title="What We Offer" />
         <Program />
-        <Title title="About Us" />
+        <Title subTitle="About Us" title="Our Story & Produce" />
         <About setPlayState={setPlayState}/>
         <Title subTitle="Book Your Choice" title="Farm Product" />
         <Routes>

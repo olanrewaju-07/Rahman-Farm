@@ -50,3 +50,9 @@ body {
     }
     
   }
+  @media (max-width: 400px) {
+   .btn.dark-btn{
+    padding: 10px 15px;
+   }
+    
+  }

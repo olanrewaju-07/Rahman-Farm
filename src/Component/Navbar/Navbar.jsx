@@ -50,7 +50,7 @@ const Navbar = () => {
         <li>
           <Link
             to="contact"
-            offset={-260}
+            offset={-220}
             duration={500}
             smooth={true}
             className="btn"
