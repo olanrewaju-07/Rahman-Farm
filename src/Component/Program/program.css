@@ -159,14 +159,14 @@
   margin-bottom: 100px;
 }
 }
-@media (max-width:440px) {
+@media (max-width:400px) {
   .programs{
     gap: 1px;
   }
 
    .program img {
-  width: 75vw;
-  height: 70vh;
+  width: 55vw;
+  height: 50vh;
 }
 .caption{
   border-radius: 20px;
@@ -184,13 +184,13 @@
   flex-direction: column;
   cursor: pointer;
   transition: 0.4s;
-  width: 75vw;
-  height: 70vh;
+  width: 55vw;
+  height: 50vh;
   padding-top: 10%;
 }
 .caption img {
-  width: 10vw;
-  height: 11vh;
+  width: 8vw;
+  height: 9vh;
   margin-bottom: 25px;
 }
 .caption p {
