@@ -1,0 +1,17 @@
+.productBooking {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+  color: #676767;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.productBooking input {
+ outline: none;
+}
+.productBooking button {
+  margin-left: 40px;
+}
