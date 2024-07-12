@@ -58,7 +58,7 @@
     flex-direction: column;
   }
   .about-left{
-    flex-basis: 100%;
+    flex-basis: 80%;
     margin: 20px;
     order: 2;
   }
