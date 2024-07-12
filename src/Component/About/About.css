@@ -99,6 +99,12 @@
      max-width: 60px;
      max-height: 60px;
   }
-    
   }
+}
+@media (max-width: 300px) {
+   .about-content .about-left img{
+      height: 50vh;
+      width: 90vw;
+    }
+  
 }
