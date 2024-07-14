@@ -50,6 +50,15 @@ body {
     }
     
   }
+  @keyframes fadeIn {
+    0%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+    
+  }
   @media (max-width: 400px) {
    .btn.dark-btn{
     padding: 10px 15px;

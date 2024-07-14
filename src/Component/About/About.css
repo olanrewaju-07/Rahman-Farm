@@ -31,6 +31,7 @@
 .about-right{
   flex-basis: 50%;
   margin-top: -20px;
+  animation: fadeIn 4s;
 }
 .about-content h1 {
   color:  #212EA0;

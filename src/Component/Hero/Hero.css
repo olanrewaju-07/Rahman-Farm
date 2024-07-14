@@ -5,14 +5,15 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-position: center;
+  background-position:center;
   min-height: 100vh;
    background:linear-gradient(rgba(0, 15, 58, 0.7), rgba(8, 0, 58, 0.7)),
-   url('../../images/image-14.jpeg')
+   url('../../images/image-14.jpeg');
 }
 .hero-text{
   text-align: center;
   max-width: 800px;
+  animation: fadeIn 3s;
 }
 .hero-text h1 {
   font-size: 70px;
